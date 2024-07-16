@@ -35,12 +35,12 @@
             label = "APT";
 
             bindings = <
-                &none          &kp W          &kp F          &kp P          &kp B            &kp J          &kp L          &kp U          &kp Y          &none
-                &hl LCTRL R    &hl LALT S     &hl LGUI T     &hl LSHFT H    &hl RALT K       &hr RALT X     &hr RSHFT N    &hr RGUI A     &hr LALT I     &hr RCTRL O
-                &none          &kp C          &kp G          &kp D          &none            &none          &kp M          &comsem        &dotcol        &none
-                                                             &my_lt NUM SQT &my_lt NAV SPACE &my_lt SYM E   &my_lt FUN ENTER
+                &kp Q          &kp W          &kp E          &kp R          &kp T            &kp Y          &kp U          &kp I          &kp O          &kp P
+                &kp A          &mt LCTRL S    &kp D          &kp F          &kp G            &kp H          &kp J          &kp K          &mt RALT L     &kp SEMI
+                &mt LSHFT Z    &kp X          &kp C          &kp V          &kp B            &kp N          &kp M          &kp COMMA      &mt LGUI DOT   &mt RSHFT FSLH
+                                                             &&mt LALT DEL  &kp SPACE        &lt 2 BSPC     &lt 1 RET
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN  &inc_dec_kp LA(TAB) LA(LS(TAB))>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP    &inc_dec_kp PG_UP PG_DN>;
         };
         numbers {
             label = "NUM";
