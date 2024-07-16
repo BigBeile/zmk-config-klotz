@@ -49,6 +49,7 @@ tgtg
                                      &mt LALT DEL   &kp SPACE       		 &lt 2 BSPC       &lt 1 RET
 			>;
 		 sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN  &inc_dec_kp LA(TAB) LA(TAB)>;
+
 		};
 		numbers {
             label = "Nummies";
@@ -65,6 +66,7 @@ tgtg
                                               &kp LGUI     &kp LCTRL              &trans        &kp LALT
 			>;
 		 sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN  &inc_dec_kp LA(TAB) LA(TAB)>;
+
 		};
 		symbols {
             label = "Funks";
@@ -81,6 +83,7 @@ tgtg
                                      &kp LGUI &kp LCTRL          &kp LALT     &trans
 			>;
 		 sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN  &inc_dec_kp LA(TAB) LA(TAB)>;
+         
 		};
 	};
 };
