@@ -65,7 +65,7 @@ tgtg
             &kp LSHFT &bt BT_SEL 0 &bt BT_CLR &kp C_MUTE   &kp LALT               &kp HOME      &kp END        &kp PG_UP      &kp PG_DN     &kp RSHFT
                                               &kp LGUI     &kp LCTRL              &trans        &kp LALT
 			>;
-		 sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN  &inc_dec_kp LA(TAB) LA(TAB)>;
+		 sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp LA(TAB) LA(TAB)>;
 
 		};
 		symbols {
@@ -82,8 +82,8 @@ tgtg
             &kp LSHFT &kp N1 &kp N2  &kp N3  &none               &none        &none        &sys_reset &bootloader &kp RSHFT
                                      &kp LGUI &kp LCTRL          &kp LALT     &trans
 			>;
-		 sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN  &inc_dec_kp LA(TAB) LA(TAB)>;
-         
+		 sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp LA(TAB) LA(TAB)>;
+
 		};
 	};
 };
